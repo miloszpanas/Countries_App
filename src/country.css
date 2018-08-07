@@ -50,7 +50,15 @@ h1 {
 h2 {
     text-align: center;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 22px;
+    letter-spacing: 1.2px;
+    color: #5f5f5f;
+}
+
+a {
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
     letter-spacing: 1.2px;
     color: #5f5f5f;
 }
