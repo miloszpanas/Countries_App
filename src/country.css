@@ -97,7 +97,8 @@ h2 {
 
 .single-country {
     width: 26%;
-    height: 16.75em;
+    height: 100%;
+    max-height: 16.75em;
     margin-top: 3.125em;
 }
 
@@ -119,7 +120,7 @@ h2 {
 @media (max-width: 767px) {
     
     html, body {
-    height: 120%;
+    height: 100%;
     }
 
     .collapse {
@@ -127,7 +128,8 @@ h2 {
     }
     .single-country {
         width: 26%;
-        height: 6.75em;
+        height: 100%;
+        max-height: 6.75em;
         margin-top: 2.125em;
     }
     h2 {
@@ -138,7 +140,8 @@ h2 {
  @media (min-width: 511px) and (max-width: 767px) {
     .single-country {
         width: 26%;
-        height: 10.75em;
+        height: 100%;
+        max-height: 10.75em;
         margin-top: 2.125em;
     }
  }
@@ -146,7 +149,8 @@ h2 {
  @media (min-width: 1201px) {
     .single-country {
         width: 26%;
-        height: 21.75em;
+        height: 100%;
+        max-height: 21.75em;
         margin-top: 3.125em;
     }
  }
